@@ -109,13 +109,13 @@ npm run dev
 npm run build
 ```
 
----
+<!-- ---
 
 ## 📸 Screenshots
 
 > _(Add 2–3 screenshots here for maximum recruiter impact)_
 
----
+--- -->
 
 ## 🌍 Live Demo
 
