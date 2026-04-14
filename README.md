@@ -1,73 +1,171 @@
-# React + TypeScript + Vite
+# 🚀 Trademark Intelligence Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, high-performance frontend application that simulates a **large-scale trademark search and analysis platform**, inspired by real-world brand protection systems.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://trademarkdashboard.netlify.app
+📂 **GitHub Repository:** https://github.com/ShakimAhamed/TrademarkDashboard
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌟 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This application replicates a simplified version of a **trademark search platform**, where users can:
 
-## Expanding the ESLint configuration
+- 🔍 Search across thousands of trademark records
+- 🏷 Filter results by status (Active / Expired)
+- ⚡ Explore large datasets efficiently (10,000+ records)
+- 🎯 Experience fast, responsive UI with optimized rendering
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🧠 Key Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### 🔎 Smart Search
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Debounced search input for improved performance
+- Real-time filtering across large datasets
+- Highlighted search matches for better UX
+
+### 📊 Data Handling at Scale
+
+- Efficiently handles **10,000+ records**
+- Virtualized rendering for high performance
+- Minimal DOM updates for smooth scrolling
+
+### ⚡ Performance Optimization
+
+- Memoized components (`React.memo`)
+- Debouncing to reduce unnecessary renders
+- Optimized rendering strategies
+
+### 🎨 Modern UI/UX
+
+- Clean and responsive design using **Tailwind CSS**
+- Skeleton loading states for better user experience
+- Intuitive layout for data exploration
+
+### 🧩 Scalable Architecture
+
+- Modular and reusable component structure
+- Separation of concerns (API, hooks, UI components)
+- Designed for maintainability and scalability
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, TypeScript
+- **State & Data Fetching:** React Query
+- **Styling:** Tailwind CSS
+- **Performance:** Virtualization, memoization
+- **Tooling:** Vite
+
+---
+
+## 🏗️ Project Structure
+
+```bash
+src/
+├── components/       # UI components
+├── hooks/            # Custom hooks
+├── api/              # API/data logic
+├── utils/            # Utility functions
+├── App.tsx           # Main app
+├── main.tsx          # Entry point
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Getting Started (Run Locally)
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/ShakimAhamed/TrademarkDashboard.git
+cd TrademarkDashboard
 ```
+
+---
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+---
+
+### 3. Run development server
+
+```bash
+npm run dev
+```
+
+---
+
+### 4. Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## 📸 Screenshots
+
+> _(Add 2–3 screenshots here for maximum recruiter impact)_
+
+---
+
+## 🌍 Live Demo
+
+👉 https://trademarkdashboard.netlify.app
+
+---
+
+## 💡 What This Project Demonstrates
+
+This project showcases:
+
+- Building **data-driven user interfaces**
+- Handling **large-scale datasets efficiently (10k+ records)**
+- Designing **high-performance frontend systems**
+- Applying **modern React best practices**
+- Creating **scalable and maintainable architecture**
+
+---
+
+## 🎯 Why This Matters
+
+Modern applications require handling **large datasets and complex interactions** efficiently.
+
+This project demonstrates:
+
+- Performance optimization techniques
+- Clean UI architecture
+- Real-world frontend engineering practices
+
+---
+
+## 📌 Future Improvements
+
+- 🔄 Server-side pagination & real API integration
+- 🌙 Dark mode support
+- 📈 Advanced filtering & sorting
+- 🔍 Fuzzy search (AI-like experience)
+- 📊 Analytics dashboard
+
+---
+
+## 👨‍💻 Author
+
+**Shakim Ahamed**
+Frontend Software Engineer
+
+GitHub: https://github.com/ShakimAhamed
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
