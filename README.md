@@ -5,6 +5,7 @@ A high-performance, data-intensive React application designed to simulate real-w
 Built to efficiently handle **10,000+ records**, this project focuses on **performance optimization, scalable architecture, and intuitive user experience** — key requirements for modern data-driven applications.
 
 🔗 **Live Demo:** https://trademarkdashboard.netlify.app
+
 📂 **GitHub Repository:** https://github.com/ShakimAhamed/TrademarkDashboard
 
 ---
@@ -133,7 +134,7 @@ npm run build
 
 ---
 
-## 📸 Screenshots
+<!-- ## 📸 Screenshots
 
 > ⚠️ Add screenshots here (very important for recruiter impact)
 
@@ -143,7 +144,7 @@ Example:
 - Search results
 - Filtered results
 
----
+--- -->
 
 ## 🌍 Live Demo
 
