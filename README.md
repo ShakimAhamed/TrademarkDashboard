@@ -134,17 +134,25 @@ npm run build
 
 ---
 
-<!-- ## 📸 Screenshots
+## 📸 Screenshots
 
-> ⚠️ Add screenshots here (very important for recruiter impact)
+<!-- > ⚠️ Add screenshots here (very important for recruiter impact) -->
 
-Example:
+<!-- Example: -->
 
-- Dashboard view
-- Search results
-- Filtered results
+### 🔍 Dashboard View
 
---- -->
+![Dashboard](./assets/dashboard.png)
+
+### 🔎 Search Functionality
+
+![Search](./assets/search.png)
+
+### 🏷 Filtered Results
+
+![Filters](./assets/filter.png)
+
+---
 
 ## 🌍 Live Demo
 
