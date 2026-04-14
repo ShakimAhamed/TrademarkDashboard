@@ -175,7 +175,8 @@ Example:
 ## 👨‍💻 Author
 
 **Shakim Ahamed**
-Frontend Software Engineer
+
+Software Engineer
 
 GitHub: https://github.com/ShakimAhamed
 
