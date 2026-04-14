@@ -142,15 +142,15 @@ npm run build
 
 ### 🔍 Dashboard View
 
-![Dashboard](./assets/dashboard.png)
+![Dashboard](./src/assets/dashboard.PNG)
 
 ### 🔎 Search Functionality
 
-![Search](./assets/search.png)
+![Search](./src/assets/search.PNG)
 
 ### 🏷 Filtered Results
 
-![Filters](./assets/filter.png)
+![Filters](./src/assets/filter.PNG)
 
 ---
 
